@@ -1,3 +1,10 @@
+let myLibrary = []
+
+function addBookToLibrary(Book){
+    myLibrary.push(Book)
+}
+
+//need to write function to scroll through an array 
 function Book(title, author, pages, read){
     this.title = title 
     this.author = author  
@@ -8,8 +15,4 @@ function Book(title, author, pages, read){
     }
 }
 
-const harryPotter = new Book('Goblet of fire', 'J.K Rowling', 9, true)
-
-console.log(harryPotter.title)
-console.log(harryPotter.read)
-console.log(harryPotter.info)
+const harryPotter = new Book('Goblet of fire', 'J.K Rowling', 9, true);
